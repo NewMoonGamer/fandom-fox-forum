@@ -47,10 +47,10 @@ DATABASES = {
         # Misago requires PostgreSQL to run
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
-        'USER': 'postgres',
+        'USER': 'super',
         'PASSWORD': 'liawalker1!A',
-        'HOST': '127.0.0.1',
-        'PORT': 5432,
+        'HOST': 'FandomFox-465.postgres.pythonanywhere-services.com',
+        'PORT': 10465,
     }
 }
 
